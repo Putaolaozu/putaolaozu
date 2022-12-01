@@ -1,0 +1,43 @@
+.table1 td{
+    border: 2px solid black;
+    padding: 5px;
+}
+.table1 {
+
+    position: relative ; left:50px;
+
+}
+.tr1:hover{
+    background-color: antiquewhite;
+
+}
+.tr2:hover{
+    background-color: antiquewhite;
+}
+.tr3:hover{
+    background-color: antiquewhite;
+}
+.contan{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contan div{
+    border: 2px solid rgba(115, 195, 211, 0.708);
+    width: 100px;
+    padding: 10px;
+
+
+}
+.box1{
+
+}
+
+.box2{
+
+}
+
+
+.box3{
+
+}
