@@ -1,0 +1,26 @@
+.option1 li{
+    border:5px solid rgb(230, 248, 174) ;
+    width: fit-content;
+    border-radius: 60px;
+    padding: 10px;
+    color:black; 
+    font-size: large;
+    font-style:oblique;
+    font-weight: bold;
+    margin: 5px;
+}
+.option1 li:hover{
+    background-color: rgb(183, 254, 232); width: fit-content;border-radius: 10px;
+}
+.option2 li{
+    font-weight: bold;
+    font-size: large;
+    padding :10 px;
+
+    margin: 10px;
+}
+.option2 li:hover {
+    border:dotted blueviolet 3px;
+    opacity: 0.7;
+    width:fit-content;
+}

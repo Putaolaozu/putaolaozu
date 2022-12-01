@@ -1,0 +1,73 @@
+h2:hover{
+    background-color: beige; width: fit-content;border-radius: 10px;
+}
+h1:hover{
+
+    background-color:bisque; width: fit-content;border-radius: 10px;
+
+}
+h3:hover{
+    background-color: blanchedalmond; width: fit-content; border-radius: 10px;
+}
+h1{
+    text-align: center;    
+    margin: 0 auto;
+}
+h3{
+    text-align: center;    
+    margin: 0 auto;
+}
+
+video{
+    display: block;
+    margin: 0 auto;
+}
+iframe{
+    display: block;
+    margin: 0 auto;
+}
+.intro{
+    border: 2px solid black;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.intro div{
+    color:rgb(2, 1, 1)
+}
+.intro0{
+
+}
+.intro1{
+
+}
+.intro2{
+
+}
+.intro3{
+
+}
+
+@keyframes shanshanshan{
+    0%{border: 20px dashed red;bottom: 200px;right: 20px;}
+    20%{border: 30px dashed orange;bottom: 300px;right: 20px;}
+    30%{border: 40px dashed yellow;bottom: 400px;right: 20px;}
+    40%{border: 50px dashed green;bottom: 500px;right: 20px;}
+    50%{border: 40px dashed cyan;bottom: 600px;right: 20px;}
+    60%{border: 30px dashed blue;bottom: 700px;right: 20px;}
+    70%{border: 20px dashed purple;bottom: 800px;right: 20px;}
+    80%{border: 10px dashed black;bottom: 900px;right: 20px;}
+    90%{border: 20px dashed gray;bottom: 1000px;right: 20px;}
+    100%{border: 30px dashed white;bottom: 900px;right: 20px;}
+}
+.img1{
+    position: fixed;bottom: 200px;right: 20px;
+    border: 10px solid black; width: fit-content;
+}
+.img1-animation:hover{
+    animation-name: shanshanshan;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
