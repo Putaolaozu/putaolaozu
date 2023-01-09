@@ -1,3 +1,7 @@
+body{
+    max-width: 800px;
+}
+
 h2:hover{
     background-color: beige; width: fit-content;border-radius: 10px;
 }

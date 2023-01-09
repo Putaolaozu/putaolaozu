@@ -1,3 +1,6 @@
+body{
+    max-width: 800px;
+}
 .option1 li{
     border:5px solid rgb(230, 248, 174) ;
     width: fit-content;
