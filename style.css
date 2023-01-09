@@ -1,5 +1,6 @@
 body{
-    max-width: 800px;
+    max-width: 1000px;
+    margin: auto;
 }
 
 h2:hover{
