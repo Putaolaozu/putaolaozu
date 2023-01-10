@@ -29,15 +29,10 @@
 
 
 }
-.box1{
 
-}
-
-.box2{
-
-}
-
-
-.box3{
-
+footer{
+    text-align: center;
+    position:relative;
+    bottom: 5px;
+    margin-bottom: 5px;
 }
