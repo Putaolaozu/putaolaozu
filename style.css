@@ -1,5 +1,6 @@
 html{
     background-image: url("sources/background-sky.jpg");
+    background-attachment: fixed;
 }
 body{
     background-color: #ffffff;
