@@ -1,4 +1,9 @@
+html{
+    background-image: url("sources/background-sky.jpg");
+}
 body{
+    background-color: #ffffff;
+    padding: 50px;
     max-width: 1000px;
     margin: auto;
 }
@@ -8,19 +13,24 @@ h2:hover{
 }
 h1:hover{
 
-    background-color:bisque; width: fit-content;border-radius: 10px;
+    background-color:bisque; 
+    width: fit-content;
+    border-radius: 10px;
+    text-align: center;
 
 }
 h3:hover{
-    background-color: blanchedalmond; width: fit-content; border-radius: 10px;
+    background-color: blanchedalmond; 
+    width: fit-content; 
+    border-radius: 10px;
+    text-align: center;
 }
 h1{
     text-align: center;    
     margin: 10px;
 }
 h3{
-    text-align: center;    
-    margin: 0 auto;
+    text-align: center;
 }
 
 video{
