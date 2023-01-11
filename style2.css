@@ -1,5 +1,13 @@
+html{
+    background-image: url(images/background-astronaut.jpg);
+    background-attachment: fixed;
+    padding: 20px;
+}
 body{
-    max-width: 800px;
+    max-width: 1000px;
+    background-color: rgba(255, 255, 255, .93);
+    padding: 50px 50px 10px 50px;
+    margin: auto;
 }
 .option1 li{
     border:5px solid rgb(230, 248, 174) ;
@@ -26,4 +34,10 @@ body{
     border:dotted blueviolet 3px;
     opacity: 0.7;
     width:fit-content;
+}
+footer{
+    text-align: center;
+    position:relative;
+
+    margin-bottom: 5px;
 }
