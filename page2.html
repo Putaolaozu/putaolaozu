@@ -14,17 +14,18 @@
         </header>
         <main>
             <figure class="video-container" data-fullscreen="False">
-                <video class="video" src="sources/反科学.mp4" controls>
-                    <!-- <source  type="video/mp4"> -->
-                    <source src="sources/反科学.mov" type="video/mov">
-                    <track kind="subtitles" src="sources/zh-cn.vtt" srclang="zh-cn" label="简体中文" default>
-                    <track kind="subtitles" src="sources/zh-tw.vtt" srclang="zh-tw" label="繁體中文">
-                    <track kind="subtitles" src="sources/en.vtt" srclang="en" label="English">
+                <video class="video" controls>
+                    <source src="videos/反科学.mp4" type="video/mp4">
+                    <source src="videos/反科学.mov" type="video/mov">
+                    <track kind="subtitles" src="videos/zh-cn.vtt" srclang="zh-cn" label="简体中文">
+                    <track kind="subtitles" src="videos/zh-tw.vtt" srclang="zh-tw" label="繁體中文">
+                    <track kind="subtitles" src="videos/en.vtt" srclang="en" label="English" default>
                 </video>
                 
                 <div class="video=controls">
                     <button id="playpause" class="con-button" type="button"><i class="fa-solid fa-play"></i><i class="fa-solid fa-pause"></i></button>
                     <div class="progress">
+                        <span id="progress-button"></span>
                         <div id="progress">
                             <span id="progress-bar"></span>
                         </div>
