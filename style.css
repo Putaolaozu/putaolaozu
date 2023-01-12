@@ -75,3 +75,13 @@ iframe{
     animation-duration: 3s;
     animation-iteration-count: infinite;
 }
+footer{
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    margin-top: 40px;
+    color: #98a6ad;
+    border-top: 1px solid #e3eaef;
+    display: inline-block;
+    width: 100%;
+    color: #98a6ad
+}
