@@ -2,7 +2,9 @@
 <html lang="zh-CN">
     <head>
         <title>葡萄页</title>
+        <meta charset="utf-8">
         <link rel="stylesheet" href="style2.css"/>
+        
     </head>
     <body>
         <header>
@@ -12,13 +14,16 @@
         </header>
         <main>
             <figure class="video-container" data-fullscreen="False">
-                <video class="video" controls>
-                    <source src="sources/反科学.mp4" type="video/mp4">
+                <video class="video" src="sources/反科学.mp4" controls>
+                    <!-- <source  type="video/mp4"> -->
                     <source src="sources/反科学.mov" type="video/mov">
+                    <track kind="subtitles" src="sources/zh-cn.vtt" srclang="zh-cn" label="简体中文" default>
+                    <track kind="subtitles" src="sources/zh-tw.vtt" srclang="zh-tw" label="繁體中文">
                 </video>
+                
                 <div class="video=controls">
-                    <button class="playpause" type="button">播/停</button>
-                    <button class="stop" type="button"></button>
+                    <button class="playpause" type="button"><i class="fa-regular fa-circle-play"></i></button>
+                    <button class="volume" type="button"><i class="fa-solid fa-volume"></i></button>
                 </div>
                 <figcaption>
                     强烈谴责美方
@@ -64,5 +69,7 @@
         </main>
 
         <footer>2023 ©️ Putaolaozu</footer>
+        <script src="https://kit.fontawesome.com/77209ddd96.js" crossorigin="anonymous"></script>
+        <script src="page2.js"></script>
     </body>
 </html>
